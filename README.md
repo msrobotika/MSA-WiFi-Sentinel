@@ -111,4 +111,3 @@ MIT for the original application code. Third-party licenses and notices are incl
 ### Resumen en español
 
 MSA WiFi Sentinel es un observador Wi-Fi pasivo y educativo para ESP32 con pantalla. Recorre canales, muestra redes y actividad, permite fijar la huella de una red propia y genera avisos prudentes ante cambios en el modo de seguridad. No se conecta, no pide claves, no inyecta paquetes y no afirma que una alerta sea un ataque.
-

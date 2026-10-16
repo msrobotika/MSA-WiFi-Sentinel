@@ -1,0 +1,10 @@
+.pio/
+bin/
+__pycache__/
+*.pyc
+.venv/
+docs/screenshots-private/
+captures/
+*.jsonl
+*.pcap
+firmware/sdkconfig.sentinel
