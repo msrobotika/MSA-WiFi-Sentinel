@@ -52,7 +52,7 @@ Boards sold under similar names may use different display geometry, inversion, o
 ## Install a release binary
 
 1. Download the release ZIP and verify `SHA256SUMS.txt`.
-2. Install Python 3 and `pip install esptool`.
+2. Install Python 3 and `pip install -r tools/requirements.txt`.
 3. Put the ESP32 in its normal serial bootloader mode if your board does not reset automatically.
 4. Flash without erasing the whole chip:
 
@@ -64,6 +64,12 @@ python -m esptool --port COM4 write-flash \
 ```
 
 Replace `COM4` with your port. Make a full backup of your original 4 MiB flash first. Do not write eFuses.
+
+The release also includes a guarded installer which verifies every binary, checks the chip family, and requires an explicit backup acknowledgement:
+
+```text
+python tools/flash.py --port COM4 --confirm-backup-made
+```
 
 ## Build from source
 

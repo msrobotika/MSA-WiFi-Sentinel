@@ -1,5 +1,7 @@
 .pio/
 bin/
+dist/
+SHA256SUMS.txt
 __pycache__/
 *.pyc
 .venv/
