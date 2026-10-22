@@ -1,5 +1,10 @@
 # MSA WiFi Sentinel
 
+> **Ficha del proyecto · MS ROBOTIKA**  
+> **Estado:** Observador pasivo Wi-Fi 2,4 GHz en ESP32 con pruebas físicas descritas · **Licencia:** [LICENSE](LICENSE)  
+> [Capturas del dispositivo](docs/) · [Workflow](.github/workflows/ci.yml) · [Validación pendiente](docs/PROJECT_STATUS.md)  
+> **Límite:** Muestreo limitado por salto de canal; una alerta observada no acredita un ataque.
+
 ![Five real framebuffer views](docs/screenshots/contact-sheet.png)
 
 **A pocket-size, passive 2.4 GHz Wi-Fi observer for an ESP32 with a 170×320 screen.** It turns spare maker hardware into a transparent learning tool: channel activity, nearby access points, a local network fingerprint, cautious warnings, and evidence counters on the device itself.
