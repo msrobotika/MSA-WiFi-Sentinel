@@ -1,3 +1,7 @@
+[![MS ROBOTIKA · WiFi Sentinel](https://raw.githubusercontent.com/msrobotika/msrobotika/main/assets/projects/msa-wifi-sentinel.svg)](https://github.com/msrobotika/msrobotika/blob/main/PROJECTS.md)
+
+[MS ROBOTIKA](https://github.com/msrobotika/msrobotika/blob/main/PROJECTS.md) · [AB Suite](https://github.com/msrobotika/AB-Suite-Core-arquitectura-de-integraci-n) · [Contribuir / Contribute](CONTRIBUTING.md) · [Seguridad / Security](SECURITY.md)
+
 # MSA WiFi Sentinel
 
 > **Ficha del proyecto · MS ROBOTIKA**  
@@ -10,6 +14,8 @@
 **A pocket-size, passive 2.4 GHz Wi-Fi observer for an ESP32 with a 170×320 screen.** It turns spare maker hardware into a transparent learning tool: channel activity, nearby access points, a local network fingerprint, cautious warnings, and evidence counters on the device itself.
 
 The first physical build has been flashed and validated on an ideaspark ESP-WROOM-32 display board. It observed real beacon traffic across channels 1–13 while remaining disconnected from Wi-Fi. No packet-injection API is used.
+
+**En español:** observador Wi-Fi pasivo para ESP32 con pantalla. Permite estudiar actividad por canal, redes y huellas confirmadas. [Controles](#controls) · [Placa compatible](#supported-first-build) · [Instalación](#install-a-release-binary) · [Validación física registrada](VALIDATION.md).
 
 ## What it does
 
